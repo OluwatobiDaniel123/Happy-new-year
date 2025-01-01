@@ -189,12 +189,17 @@ function App() {
       {isModalOpen && (
         <ModalOverlay>
           <ModalContent>
-            <h2>Thank You, Mom! 💖</h2>
+            <h2>Mom, You're the Best! 💖</h2>
             <p>
-              Your love and support mean everything to me. Here's to an amazing
-              2025 together!
+              I was thinking... what’s the best way to start 2025? <br />
+              It hit me: a tiny sprinkle of your generosity (maybe cash?) <br />
+              would make this New Year unforgettable. 🤑✨
             </p>
-            <button onClick={closeModal}>Close</button>
+            <p>
+              Don't worry, it’s just a token—think of it as an investment in
+              your amazing child’s success! 😉
+            </p>
+            <button onClick={closeModal}>Got it, Mom! 🥰</button>
           </ModalContent>
         </ModalOverlay>
       )}
